@@ -1,0 +1,40 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  .skill {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px auto;
+
+    .progressCircle {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 16px;
+    }
+
+    h3 {
+      margin-top: 10px;
+    }
+  }
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
