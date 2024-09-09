@@ -1,20 +1,20 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Impressum from './pages/Impressum';
 import './App.css';
-
-import React from 'react';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+import Title from './components/Title/Title';
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route index path="/home" element={<Home />} />
-          <Route path="/impressum" element={<Impressum />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Title title="Projekte" />
+      <Projects />
+      <Title title="Fähigkeiten" />
+      <Skills />
+    </>
   );
 }
 
