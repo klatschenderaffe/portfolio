@@ -37,8 +37,8 @@ const Skills = () => {
 
       <div className="skill">
         <CircularProgressbar
-          value={70}
-          text="70%"
+          value={65}
+          text="65%"
           styles={buildStyles({
             textColor: '#fff',
             textSize: '16px',

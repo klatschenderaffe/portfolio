@@ -10,14 +10,19 @@ function Projects() {
       <div className="projectsContainer">
         <ProjectCard
           src={VanVentura}
-          link="https://github.com/klatschenderaffe/VAN_VENTURA"
+          link="/vanventura"
           h3="VanVentura"
           p="Camping App"
         />
-        <ProjectCard src={Piazza} link="-" h3="Piazza" p="Restaurant Website" />
+        <ProjectCard
+          src={Piazza}
+          link="/piazza"
+          h3="Piazza"
+          p="Restaurant Website"
+        />
         <ProjectCard
           src={FundF}
-          link="-"
+          link="/fellundflauschig"
           h3="Fell und Flauschig"
           p="Fotografen Website"
         />

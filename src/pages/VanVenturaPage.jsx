@@ -2,11 +2,13 @@ import React from 'react';
 import Title from '../components/Title/Title';
 import ProjectPage from '../components/ProjectPage/ProjectPage';
 import VanVenturaMockup from '../assets/VanVenturaMockup.png';
+import BackButton from '../components/BackButton/BackButton';
 
 function VanVenturaPage() {
   return (
     <div>
-      <Title title="VanVentura Projekt" />
+      <BackButton />
+      <Title title="VanVentura" subtitle="Projekt" />
       <ProjectPage
         introducing="Van Ventura war ein Projekt innerhalb meiner Weiterbildung bei
           Techstarter. Wir haben uns in Gruppen aufgeteilt und anschließend
@@ -17,10 +19,9 @@ function VanVenturaPage() {
           Website möglichst Zeitlos und einfach gestalten. Sie sollte simple
           aber dennoch ansprechend aussehen."
         mockup={VanVenturaMockup}
-        maintext="Van Ventura ist eins meiner Herzens Projekte, welches ich auch vorhabe
-          zu erweitern. Zum Beispiel soll auf dauer noch ein Blog abteil hinzu
-          in welchem ich über meinen Van Ausbau berichte, sowie auch Tipps und
-          Tricks zur Verfügung stelle."
+        maintext="Van Ventura ist eines meiner Herzensprojekte, das ich weiter 
+        ausbauen möchte. Geplant ist die Integration eines Blog-Bereichs, in dem ich über den Ausbau 
+        meines Vans berichte und Tipps sowie Tricks zur Verfügung stelle."
         githublink="https://github.com/klatschenderaffe/VAN_VENTURA"
       />
     </div>

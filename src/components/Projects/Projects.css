@@ -28,3 +28,10 @@
   align-items: center;
   gap: 30px;
 }
+
+@media (min-width: 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    gap: 80px;
+  }
+}

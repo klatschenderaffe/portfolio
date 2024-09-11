@@ -1,11 +1,13 @@
 import Title from '../components/Title/Title';
 import React from 'react';
 import Impressum from '../components/Impressum/Impressum.jsx';
+import BackButton from '../components/BackButton/BackButton.jsx';
 
 function ImpressumPage() {
   return (
     <div>
-      <Title title="Impressum" />
+      <BackButton />
+      <Title title="Impressum" subtitle="Nicht gewerblich genutzt" />
       <Impressum />
     </div>
   );

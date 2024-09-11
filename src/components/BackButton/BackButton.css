@@ -1,0 +1,32 @@
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 30px;
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.backbtn {
+  width: 100%;
+  color: white;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  font-family: 'Roboto Mono', monospace;
+  text-align: right;
+}
+.dark-nav {
+  background: black;
+  transition: 0.5s;
+}

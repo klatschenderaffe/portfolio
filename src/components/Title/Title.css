@@ -1,6 +1,11 @@
-.title {
+.Title-Container {
+  margin: 150px auto;
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin: 150px auto;
+
+  .subtitle {
+    margin-bottom: 10px;
+  }
 }

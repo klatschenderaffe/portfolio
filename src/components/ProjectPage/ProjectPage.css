@@ -1,9 +1,9 @@
-.VanVentura-Container {
+.ProductPage-Container {
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  margin: 0 500px;
+  margin: 0 450px;
 
   a {
     margin-top: 40px;
@@ -11,11 +11,28 @@
     align-self: center;
   }
 
-  p {
-    margin-bottom: 40px;
+  h2 {
+    margin: 40px;
+    font-size: 30px;
+  }
+  h3 {
+    margin-top: 40px;
   }
 }
 .bild {
   margin: 60px auto;
-  width: 800px;
+  width: 600px;
+}
+
+@media (max-width: 840px) {
+  .ProductPage-Container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 25px;
+  }
+  .bild {
+    width: 400px;
+  }
 }

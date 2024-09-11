@@ -2,10 +2,10 @@ import React from 'react';
 import './ProjectPage.css';
 import github from '../../assets/github.png';
 
-function ProjectPage({ introducing, mockup, maintext, githublink }) {
+function ProjectPage({ introducing, mockup, maintext, githublink, skills }) {
   return (
     <>
-      <div className="VanVentura-Container">
+      <div className="ProductPage-Container">
         <p>{introducing}</p>
         <div>
           <img src={mockup} alt="" className="bild" />
