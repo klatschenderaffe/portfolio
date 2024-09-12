@@ -2,7 +2,7 @@ import './Hero.css';
 import heroImg from '../../assets/heroImg.png';
 import LinkedInIcon from '../../assets/linkedin.png';
 import GithubIcon from '../../assets/github.png';
-import CV from '../../assets/CV_Pia_Heiss.pdf';
+import CV from '../../assets/Lebenslauf.pdf';
 
 function Hero() {
   return (
