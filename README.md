@@ -1,8 +1,34 @@
-# React + Vite
+# Portfolio README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=====================
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a personal portfolio website built using modern web technologies. The website showcases my skills and experiences in a visually appealing way.
+
+## Technologies Used
+
+- HTML5
+- CSS
+- JavaScript
+- React
+
+## Features
+
+- Responsive design for optimal viewing on various devices
+- Custom font styles using Google Fonts (Roboto Mono and Rubik)
+
+## Usage
+
+### To use this portfolio website:
+
+1. Open the project in a web browser.
+2. Explore the website to learn more about my skills and experiences.
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## Author
+
+Pia Heiß
