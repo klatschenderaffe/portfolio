@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer>
-      <li>
-        <Link to="/impressum" className="link">
-          Impressum
-        </Link>
+      <li className='link'>
+        <Link to='/impressum'>Impressum</Link>
       </li>
     </footer>
   );

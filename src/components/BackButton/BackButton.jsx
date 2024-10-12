@@ -12,7 +12,7 @@ function BackButton() {
   return (
     <div className={`backbtn ${sticky ? 'dark-nav' : ''}`}>
       <li>
-        <Link to="/" className="link">
+        <Link to='/' className='link'>
           Zurück zur Startseite
         </Link>
       </li>

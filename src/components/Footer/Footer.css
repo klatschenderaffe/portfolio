@@ -4,19 +4,23 @@ footer {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: black;
-  color: white;
+  background-color: #ddc1a7;
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
 }
 
-nav li {
+footer li {
   display: inline-block;
   list-style: none;
-
   font-size: 20px;
 }
 
-.link {
+footer .link a {
   cursor: pointer;
+  color: #433831;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+  text-shadow: 1px 0 10px #2f2722;
 }

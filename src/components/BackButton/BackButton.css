@@ -7,13 +7,12 @@ li {
 
 .link {
   text-decoration: none;
-  color: #fff;
+  color: #433831;
   cursor: pointer;
 }
 
 .backbtn {
   width: 100%;
-  color: white;
   padding: 4px 0;
   position: fixed;
   top: 0;

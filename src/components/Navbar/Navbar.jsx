@@ -19,41 +19,23 @@ function Navbar() {
   return (
     <nav className={`${sticky ? 'dark-nav' : ''}`}>
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <li>
-          <Link
-            to="hero"
-            smooth={true}
-            offset={-250}
-            duration={500}
-            className="link"
-          >
+        <li className='link'>
+          <Link to='hero' smooth={true} offset={-250} duration={500}>
             Startseite
           </Link>
         </li>
-        <li>
-          <Link
-            to="project"
-            smooth={true}
-            offset={-250}
-            duration={500}
-            className="link"
-          >
+        <li className='link'>
+          <Link to='project' smooth={true} offset={-290} duration={500}>
             Projekte
           </Link>
         </li>
-        <li>
-          <Link
-            to="skills"
-            smooth={true}
-            offset={-250}
-            duration={500}
-            className="link"
-          >
+        <li className='link'>
+          <Link to='skills' smooth={true} offset={-250} duration={500}>
             Fähigkeiten
           </Link>
         </li>
       </ul>
-      <img src={menu} alt="" className="menue-icon" onClick={toggleMenu} />
+      <img src={menu} alt='' className='menue-icon' onClick={toggleMenu} />
     </nav>
   );
 }
